@@ -1,2 +1,64 @@
 @import url(./fonts.css);
 
+/* DESIGN SYSTEM */
+
+:root {
+    --primary-color: #07043B;
+    --white: #fff;
+    --green: #3DA08F;
+    --OpenSans: "Open Sans";
+    --NunitoSans: "Nunito Sans";
+    --Raleway: "Raleway";
+}
+
+/* GLOBAL STYLE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #2F65F8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-shadow: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+    color: var(--white);
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 14px;
+    transition: .5s;
+
+
+}
+.btn:hover {
+    opacity: .8;
+}
+.btn:active {
+    background-color: #6C9BFF;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1328px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+}
