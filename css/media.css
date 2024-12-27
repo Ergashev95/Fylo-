@@ -1,0 +1,54 @@
+@media only screen and (max-width: 576px){
+    .site-header {
+       padding-top: 24px;
+    }
+    .logo-image {
+        max-width: 80px;
+        width: 100%;
+        height: 24px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .nav {
+        column-gap: 24px;
+    }
+
+    .d-mobile {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+
+    .site-hero__banner {
+        max-width: unset;
+        width: 90%;
+        margin: auto;
+        display: block;
+        
+    }
+    .site-title {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .site-desc {
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .site-form {
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .site-form__input {
+        margin: auto;
+    }
+    .site-form__btn  {
+       max-width: unset;
+       width: 98%;
+       margin: auto;
+    }
+}
