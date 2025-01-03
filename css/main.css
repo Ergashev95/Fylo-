@@ -155,3 +155,148 @@ a {
 }
 
 /* SITE HERO */
+
+/* SERVICE */
+
+
+.service-picture {
+    width: 100%;
+
+}
+.service-image {
+    width: 100%;
+}
+.service-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F8F8FE;
+}
+.service-title {
+    color: var(--primary-color);
+    font-family: var(--Raleway);
+    font-size: 40px;
+    font-weight: 700;
+}
+.service-text {
+    max-width: 529px;
+    width: 100%;
+    color: var(--primary-color);
+    font-family: var(--OpenSans);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 38px;
+    margin-bottom: 15px;
+}
+.service-btn {
+    color: var(--green);
+    font-family: var(--OpenSans);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    border-bottom: 1px solid var(--green);
+    width: max-content;
+    
+
+}
+.service-card {
+    max-width: 356px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.05);
+    padding: 25px 33px;
+    margin-top: 45px;
+}
+.service-card__text {
+    color: var(--primary-color);
+    font-family: var(--OpenSans);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.user {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    margin-top: 16px;
+}
+.user-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: var(--primary-color);
+    font-family: var(--OpenSans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+}
+.user-job {
+    color: var(--primary-color);
+    font-family: var(--OpenSans);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px;
+
+letter-spacing: 0.356px;
+}
+/* SERVICE */
+
+/* CONTACT */
+.contact {
+    padding-top: 100px;
+    padding-bottom: 85px;
+    background-color: #575988;
+}
+.contact-title {
+    color: var(--white);
+    font-family: var(--Raleway);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+.contact-text {
+    color: var(--white);
+    font-family: var(--OpenSans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .5px;
+    max-width: 533px;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.contact-input {
+    display: block;
+    width: 480px;
+    padding: 16px 22px;
+    box-shadow: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+    border-radius: 3px;
+    border: unset;
+    
+}
+.contact-input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--Raleway);
+    color: #C0C0C0;
+
+}
+.contact-input:focus{
+   outline: unset;
+}
+
+/* CONTACT */
